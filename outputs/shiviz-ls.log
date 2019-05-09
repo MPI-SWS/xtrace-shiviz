@@ -1,0 +1,290 @@
+(?<host>\S*) (?<clock>{.*})\n(?<event>.*)
+
+FsSh1 {"FsSh1":1}
+Process main method begin
+FsSh1 {"FsSh1":2}
+fileop
+FsSh1 {"FsSh1":3}
+fileop
+FsSh1 {"FsSh1":4}
+fileop
+FsSh1 {"FsSh1":5}
+fileop
+FsSh1 {"FsSh1":6}
+Forking current baggage with Baggage.fork()
+FsSh1 {"FsSh1":7}
+TransitLayerSerialize
+FsSh1 {"FsSh1":8}
+setsid exited with exit code 0
+FsSh1 {"FsSh1":9}
+parsing URL jar:file:/home/vanand/MPI/hadoop/hadoop-dist/target/hadoop-2.7.2/share/hadoop/common/hadoop-common-2.7.2.jar!/core-default.xml
+FsSh1 {"FsSh1":10}
+parsing input stream sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@3c01cfa1
+FsSh1 {"FsSh1":11}
+parsing URL file:/home/vanand/MPI/hadoop/hadoop-conf/hadoop/core-site.xml
+FsSh1 {"FsSh1":12}
+parsing input stream java.io.BufferedInputStream@1583741e
+FsSh1 {"FsSh1":13}
+Executing command
+FsSh1 {"FsSh1":14}
+Forking current baggage with Baggage.fork()
+FsSh1 {"FsSh1":15}
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Rate of successful kerberos logins and latency (milliseconds)])
+FsSh1 {"FsSh1":16}
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Rate of failed kerberos logins and latency (milliseconds)])
+FsSh1 {"FsSh1":17}
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[GetGroups])
+FsSh1 {"FsSh1":18}
+UgiMetrics, User and group related metrics
+FsSh1 {"FsSh1":19}
+Kerberos krb5 configuration not found, setting default realm to empty
+FsSh1 {"FsSh1":20}
+ Creating new Groups object
+FsSh1 {"FsSh1":21}
+Trying to load the custom-built native-hadoop library...
+FsSh1 {"FsSh1":22}
+Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+FsSh1 {"FsSh1":23}
+java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+FsSh1 {"FsSh1":24}
+Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+FsSh1 {"FsSh1":25}
+Falling back to shell based
+FsSh1 {"FsSh1":26}
+Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+FsSh1 {"FsSh1":27}
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+FsSh1 {"FsSh1":28}
+hadoop login
+FsSh1 {"FsSh1":29}
+hadoop login commit
+FsSh1 {"FsSh1":30}
+using local user:UnixPrincipal: vanand
+FsSh1 {"FsSh1":31}
+Using user: "UnixPrincipal: vanand" with name vanand
+FsSh1 {"FsSh1":32}
+User entry: "vanand"
+FsSh1 {"FsSh1":33}
+UGI loginUser:vanand (auth:SIMPLE)
+FsSh1 {"FsSh1":34}
+No span receiver names found in dfs.client.htrace.spanreceiver.classes.
+FsSh1 {"FsSh1":35}
+Forking current baggage with Baggage.fork()
+FsSh1 {"FsSh1":36}
+dfs.client.use.legacy.blockreader.local = false
+FsSh1 {"FsSh1":37}
+dfs.client.read.shortcircuit = false
+FsSh1 {"FsSh1":38}
+dfs.client.domain.socket.data.traffic = false
+FsSh1 {"FsSh1":39}
+dfs.domain.socket.path = 
+FsSh1 {"FsSh1":40}
+multipleLinearRandomRetry = null
+FsSh1 {"FsSh1":41}
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3b220bcb
+FsSh1 {"FsSh1":42}
+getting client out of cache: org.apache.hadoop.ipc.Client@5b40ceb
+FsSh1 {"FsSh1":43}
+Both short-circuit local reads and UNIX domain socket are disabled.
+FsSh1 {"FsSh1":44}
+DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for [dfs.data.transfer.protection]
+FsSh1 {"FsSh1":45}
+1: Call -> /127.0.0.1:9000: getFileInfo {src: "/"}
+FsSh1 {"FsSh1":46}
+Invoking org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+FsSh1 {"FsSh1":47}
+Forking current baggage with Baggage.fork()
+FsSh1 {"FsSh1":48}
+TransitLayerSerialize
+FsSh1 {"FsSh1":49}
+The ping interval is 60000 ms.
+FsSh1 {"FsSh1":50}
+Thread.setName: IPC Client (1614133563) connection to /127.0.0.1:9000 from vanand
+FsSh1 {"FsSh1":51}
+Connecting to /127.0.0.1:9000
+FsSh1 {"FsSh1":52}
+netconnect
+FsSh1 {"FsSh1":53}
+waited
+FsSh1 {"FsSh1":54}
+netconnect
+FsSh1 {"FsSh1":55}
+loopback-write
+FsSh1 {"FsSh1":56}
+Forking current baggage with Baggage.fork()
+FsSh1 {"FsSh1":57}
+TransitLayerSerialize
+FsSh1 {"FsSh1":58}
+unset
+FsSh27 {"FsSh27":1, "FsSh1":58}
+set
+FsSh27 {"FsSh27":2, "FsSh1":58}
+IPC Client (1614133563) connection to /127.0.0.1:9000 from vanand sending #0
+FsSh27 {"FsSh27":3, "FsSh1":58}
+Forking current baggage with Baggage.fork()
+FsSh27 {"FsSh27":4, "FsSh1":58}
+TransitLayerSerialize
+Name35 {"Name35":1, "FsSh1":58}
+TransitLayerDeserialize
+Name35 {"Name35":2, "FsSh1":58}
+set
+Name35 {"Name35":3, "FsSh1":58}
+netread
+Name35 {"Name35":4, "FsSh1":58}
+Successfully authorized userInfo {
+  effectiveUser: "vanand"
+}
+protocol: "org.apache.hadoop.hdfs.protocol.ClientProtocol"
+
+Name35 {"Name35":5, "FsSh1":58}
+unset
+FsSh27 {"FsSh27":5, "FsSh1":58}
+loopback-write
+FsSh27 {"FsSh27":6, "FsSh1":58}
+unset
+Name35 {"Name35":6, "FsSh27":6, "FsSh1":58}
+TransitLayerDeserialize
+Name35 {"Name35":7, "FsSh27":6, "FsSh1":58}
+set
+Name35 {"Name35":8, "FsSh27":6, "FsSh1":58}
+netread
+Name35 {"Name35":9, "FsSh27":6, "FsSh1":58}
+Forking current baggage with Baggage.fork()
+Name35 {"Name35":10, "FsSh27":6, "FsSh1":58}
+threadpool-enqueue
+Name35 {"Name35":11, "FsSh27":6, "FsSh1":58}
+unset
+Name43 {"FsSh1":58, "Name35":11, "FsSh27":6, "Name43":1}
+set
+Name43 {"FsSh27":6, "Name43":2, "FsSh1":58, "Name35":11}
+threadpool-start
+Name43 {"Name43":3, "FsSh1":58, "Name35":11, "FsSh27":6}
+IPC Server handler 0 on 9000: org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo from 127.0.0.1:48798 Call#0 Retry#0 for RpcKind RPC_PROTOCOL_BUFFER
+Name43 {"Name43":4, "FsSh1":58, "Name35":11, "FsSh27":6}
+PrivilegedAction as:vanand (auth:SIMPLE) from:org.apache.hadoop.ipc.Server$Handler.run(Server.java:2106)
+Name43 {"Name43":5, "FsSh1":58, "Name35":11, "FsSh27":6}
+getFileInfo in org.apache.hadoop.hdfs.protocol.ClientProtocol
+Name43 {"Name43":6, "FsSh1":58, "Name35":11, "FsSh27":6}
+allowed=true	ugi=vanand (auth:SIMPLE)	ip=/127.0.0.1	cmd=getfileinfo	src=/	dst=null	perm=null	proto=rpc
+Name43 {"Name43":7, "FsSh1":58, "Name35":11, "FsSh27":6}
+a metric is reported: cmd: [getfileinfo, vanand (auth:SIMPLE)] user: 
+Name43 {"FsSh1":58, "Name35":11, "FsSh27":6, "Name43":8}
+------------------- logged event for top service: allowed=true	ugi=vanand (auth:SIMPLE)	ip=/127.0.0.1	cmd=getfileinfo	src=/	dst=null	perm=null
+Name43 {"Name43":9, "FsSh1":58, "Name35":11, "FsSh27":6}
+Served: getFileInfo queueTime= 7 procesingTime= 2
+Name43 {"FsSh1":58, "Name35":11, "FsSh27":6, "Name43":10}
+Forking current baggage with Baggage.fork()
+Name43 {"Name43":11, "FsSh1":58, "Name35":11, "FsSh27":6}
+TransitLayerSerialize
+Name43 {"Name43":12, "FsSh1":58, "Name35":11, "FsSh27":6}
+IPC Server handler 0 on 9000: responding to org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo from 127.0.0.1:48798 Call#0 Retry#0
+Name43 {"Name43":13, "FsSh1":58, "Name35":11, "FsSh27":6}
+loopback-write
+Name43 {"Name43":14, "FsSh1":58, "Name35":11, "FsSh27":6}
+IPC Server handler 0 on 9000: responding to org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo from 127.0.0.1:48798 Call#0 Retry#0 Wrote 124 bytes.
+Name43 {"Name43":15, "FsSh1":58, "Name35":11, "FsSh27":6}
+unset
+FsSh1 {"FsSh1":59, "FsSh27":6}
+set
+FsSh26 {"FsSh26":1, "Name43":15, "FsSh1":58, "Name35":11, "FsSh27":6}
+TransitLayerDeserialize
+FsSh26 {"FsSh27":6, "FsSh26":2, "Name43":15, "FsSh1":58, "Name35":11}
+set
+FsSh26 {"FsSh26":3, "Name43":15, "FsSh1":58, "Name35":11, "FsSh27":6}
+netread
+FsSh26 {"FsSh26":4, "Name43":15, "FsSh1":58, "Name35":11, "FsSh27":6}
+IPC Client (1614133563) connection to /127.0.0.1:9000 from vanand got value #0
+FsSh26 {"FsSh26":5, "Name43":15, "FsSh1":58, "Name35":11, "FsSh27":6}
+unset
+FsSh1 {"FsSh1":60, "FsSh27":6}
+waited
+FsSh1 {"FsSh1":61, "FsSh27":6, "FsSh26":5, "Name43":15, "Name35":11}
+Merged current baggage with other baggage
+FsSh1 {"FsSh26":5, "Name43":15, "Name35":11, "FsSh1":62, "FsSh27":6}
+Call: getFileInfo took 403ms
+FsSh1 {"Name43":15, "Name35":11, "FsSh1":63, "FsSh27":6, "FsSh26":5}
+1: Response <- /127.0.0.1:9000: getFileInfo {fs { fileType: IS_DIR path: "" length: 0 permission { perm: 493 } owner: "vanand" group: "supergroup" modification_time: 1557392110035 access_time: 0 block_replication: 0 blocksize: 0 fileId: 16385 childrenNum: 1 storagePolicy: 0 }}
+FsSh1 {"FsSh1":64, "FsSh27":6, "FsSh26":5, "Name43":15, "Name35":11}
+org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo completed
+FsSh1 {"Name43":15, "Name35":11, "FsSh1":65, "FsSh27":6, "FsSh26":5}
+1: Call -> /127.0.0.1:9000: getListing {src: "/" startAfter: "" needLocation: false}
+FsSh1 {"FsSh1":66, "FsSh27":6, "FsSh26":5, "Name43":15, "Name35":11}
+Invoking org.apache.hadoop.hdfs.protocol.ClientProtocol.getListing
+FsSh1 {"FsSh27":6, "FsSh26":5, "Name43":15, "Name35":11, "FsSh1":67}
+unset
+Name35 {"Name35":12}
+TransitLayerDeserialize
+Name35 {"Name35":13}
+set
+Name35 {"Name35":14}
+netread
+FsSh27 {"FsSh27":7, "Name43":15, "Name35":11, "FsSh1":67, "FsSh26":5}
+set
+FsSh27 {"FsSh27":8, "Name43":15, "Name35":11, "FsSh1":67, "FsSh26":5}
+IPC Client (1614133563) connection to /127.0.0.1:9000 from vanand sending #1
+FsSh27 {"FsSh27":9, "Name43":15, "Name35":11, "FsSh1":67, "FsSh26":5}
+Forking current baggage with Baggage.fork()
+FsSh27 {"FsSh27":10, "Name43":15, "Name35":11, "FsSh1":67, "FsSh26":5}
+TransitLayerSerialize
+Name35 {"Name35":15}
+Forking current baggage with Baggage.fork()
+Name35 {"Name35":16}
+threadpool-enqueue
+Name35 {"Name35":17}
+unset
+Name43 {"Name43":16, "Name35":17}
+set
+FsSh27 {"FsSh27":11, "Name43":15, "Name35":11, "FsSh1":67, "FsSh26":5}
+loopback-write
+Name43 {"Name43":17, "Name35":17}
+threadpool-start
+Name43 {"Name43":18, "Name35":17}
+IPC Server handler 0 on 9000: org.apache.hadoop.hdfs.protocol.ClientProtocol.getListing from 127.0.0.1:48798 Call#1 Retry#0 for RpcKind RPC_PROTOCOL_BUFFER
+Name43 {"Name35":17, "Name43":19}
+PrivilegedAction as:vanand (auth:SIMPLE) from:org.apache.hadoop.ipc.Server$Handler.run(Server.java:2106)
+Name43 {"Name43":20, "Name35":17}
+getListing in org.apache.hadoop.hdfs.protocol.ClientProtocol
+FsSh27 {"FsSh27":12, "Name43":15, "Name35":11, "FsSh1":67, "FsSh26":5}
+unset
+FsSh1 {"FsSh26":5, "FsSh27":12, "FsSh1":68, "Name43":15, "Name35":11}
+set
+Name43 {"Name43":21, "Name35":17}
+allowed=true	ugi=vanand (auth:SIMPLE)	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null	proto=rpc
+Name43 {"Name43":22, "Name35":17}
+a metric is reported: cmd: [listStatus, vanand (auth:SIMPLE)] user: 
+Name43 {"Name43":23, "Name35":17}
+------------------- logged event for top service: allowed=true	ugi=vanand (auth:SIMPLE)	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null
+Name43 {"Name43":24, "Name35":17}
+Served: getListing queueTime= 16 procesingTime= 9
+Name43 {"Name43":25, "Name35":17}
+Forking current baggage with Baggage.fork()
+Name43 {"Name43":26, "Name35":17}
+TransitLayerSerialize
+Name43 {"Name43":27, "Name35":17}
+IPC Server handler 0 on 9000: responding to org.apache.hadoop.hdfs.protocol.ClientProtocol.getListing from 127.0.0.1:48798 Call#1 Retry#0
+Name43 {"Name43":28, "Name35":17}
+loopback-write
+Name43 {"Name43":29, "Name35":17}
+IPC Server handler 0 on 9000: responding to org.apache.hadoop.hdfs.protocol.ClientProtocol.getListing from 127.0.0.1:48798 Call#1 Retry#0 Wrote 135 bytes.
+Name43 {"Name35":17, "Name43":30}
+unset
+FsSh26 {"FsSh26":6, "Name43":30, "Name35":17}
+TransitLayerDeserialize
+FsSh26 {"FsSh26":7, "Name43":30, "Name35":17}
+set
+FsSh26 {"FsSh26":8, "Name43":30, "Name35":17}
+netread
+FsSh26 {"Name35":17, "FsSh26":9, "Name43":30}
+IPC Client (1614133563) connection to /127.0.0.1:9000 from vanand got value #1
+FsSh26 {"FsSh26":10, "Name43":30, "Name35":17}
+unset
+FsSh1 {"FsSh1":69, "Name43":15, "Name35":11, "FsSh26":5, "FsSh27":12}
+waited
+FsSh1 {"FsSh27":12, "FsSh1":70, "Name43":30, "Name35":17, "FsSh26":10}
+Merged current baggage with other baggage
+FsSh1 {"FsSh1":71, "Name43":30, "Name35":17, "FsSh26":10, "FsSh27":12}
+Call: getListing took 49ms
+FsSh1 {"Name35":17, "FsSh26":10, "FsSh27":12, "FsSh1":72, "Name43":30}
+1: Response <- /127.0.0.1:9000: getListing {dirList { partialListing { fileType: IS_DIR path: "vaastav" length: 0 permission { perm: 493 } owner: "vanand" group: "supergroup" modification_time: 1557392110035 access_time: 0 block_replication: 0 blocksize: 0 fileId: 16386 childrenNum: 0 storagePolicy: 0 } remainingEntries: 0 }}
+FsSh1 {"FsSh27":12, "FsSh1":73, "Name43":30, "Name35":17, "FsSh26":10}
+org.apache.hadoop.hdfs.protocol.ClientProtocol.getListing completed
