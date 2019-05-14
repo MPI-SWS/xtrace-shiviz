@@ -122,7 +122,7 @@ func read_traces(filename string) ([]XTrace, error) {
 
 func main() {
 	if len(os.Args) != 3 {
-		log.Fatal("Usage: go run converter.go <trace_filename> <shiviz_filename")
+		log.Fatal("Usage: go run convert.go <trace_filename> <shiviz_filename>")
 	}
 
 	filename := os.Args[1]
